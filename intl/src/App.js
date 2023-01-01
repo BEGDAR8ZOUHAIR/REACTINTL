@@ -21,7 +21,11 @@ function App() {
           <h2>
             Not translated part. {translate('hello')}
           </h2>
+          
           <p>
+            {translate('about')}
+            <hr />
+          <p />
             {translate('edit-file', {file: <code>src/App.js</code>})}
             <hr/>
           </p>
