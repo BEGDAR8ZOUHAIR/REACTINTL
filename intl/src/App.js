@@ -5,7 +5,7 @@ import './App.css';
 
 import { I18nPropvider, LOCALES } from './i18nProvider';
 import translate from "./i18nProvider/translate";
-import Input from './input';
+
 
 function App() {
   const [locale, setLocale] = useState(LOCALES.ENGLISH);
@@ -32,6 +32,7 @@ function App() {
           <button onClick={() => setLocale(LOCALES.ENGLISH)}>English</button>
           <button onClick={() => setLocale(LOCALES.FRENCH)}>French</button>
             <button onClick={() => setLocale(LOCALES.GERMAN)}>German</button>
+            <button onClick={() => setLocale(LOCALES.ARABIC)}>Arabic</button>
           </div>
         </header>
       </div>
